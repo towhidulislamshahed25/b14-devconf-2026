@@ -258,6 +258,44 @@ main {
 /* Main section ends */
 
 
+/* footer section start */
+
+
+footer {
+    background-color: #2E2622;
+    padding: 150px 0;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    color: #CFC6BB;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links a {
+    color: #CFC6BB;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #CFC6BB;
+}
+
 
 
 
