@@ -13,7 +13,7 @@
 }
 
 .nav-container {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -122,7 +122,6 @@
 
 .hero-container h1 {
     font-size: 64px;
-    line-height: 1.1;
     font-weight: 700;
     margin-bottom: 24px;
 }
@@ -185,8 +184,7 @@ main {
     margin: 12px 0;
 }
 
-.top-line,
-.bottom-line {
+.top-line, .bottom-line {
     display: block;
     width: 22px;
     height: 3px;
@@ -286,7 +284,6 @@ main {
     width: 300px;
     height: 500px;
     border: 2px solid white;
-    
     border-radius: 10px;
     padding: 40px;
     text-align: left;
@@ -440,6 +437,108 @@ main {
     cursor: pointer;
 }
 
+/* price card section end */
+
+/* AI section start */
+
+/* Event highlights section starts */
+
+.highlights-section {
+    background-color: #f8fafc;
+    padding: 80px 0;
+}
+
+.highlights-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section title */
+
+.highlights-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.highlights-title p {
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.highlights-title h2 {
+    color: #0f172a;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.highlights-title span {
+    display: block;
+    width: 55px;
+    height: 3px;
+    background-color: #2563eb;
+    margin: 0 auto;
+}
+
+/* Cards container */
+
+.highlights-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+/* Single card */
+
+.highlight-card {
+    width: 32%;
+    background-color: #ffffff;
+    padding: 35px 30px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+}
+
+/* Number icon */
+
+.highlight-icon {
+    width: 50px;
+    height: 50px;
+
+    background-color: #dbeafe;
+    color: #2563eb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    margin-bottom: 22px;
+}
+
+/* Card text */
+
+.highlight-card h3 {
+    color: #0f172a;
+    font-size: 22px;
+    margin-bottom: 14px;
+}
+
+.highlight-card p {
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* Event highlights section ends */
+
+/* AI section end */
 
 /* Main section ends */
 
