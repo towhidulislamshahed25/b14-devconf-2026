@@ -1,0 +1,1 @@
+AI Prompt: I am a beginner. Recently, I learn HTML5 and CSS3. I create a DevConf 2026 page with nav bar, hero banner, speaker section, pricing card, and footer. I need one section between the pricing card and footer. Could you please create as a beginner section which is more suitable for my project? please provide a html and external css code. 
